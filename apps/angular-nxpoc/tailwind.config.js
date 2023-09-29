@@ -10,10 +10,10 @@ module.exports = {
   ],
 
   theme: {  
-    
+      
     extend: {
       colors:{
-        'primary':'red'
+        'primary':'blue'
       },
       // padding:{
       //   '5px':'5px',

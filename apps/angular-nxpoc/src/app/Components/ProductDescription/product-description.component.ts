@@ -4,6 +4,7 @@ import { RouterModule } from '@angular/router';
 import { ProductInfoService } from '../../Services/product-info.service';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatButtonModule } from '@angular/material/button';
+import { AddCartService } from '../../Services/add-cart.service';
 
 @Component({
   selector: 'angular-nxpoc-product-description',
@@ -15,10 +16,19 @@ import { MatButtonModule } from '@angular/material/button';
 export class ProductDescriptionComponent implements OnInit {
   @Input() productid!: string;
   descriptionInfo = inject(ProductInfoService);
-  productInfo: any;
+  cartAdd = inject(AddCartService);
+  product: any;
+
+  cartAdditon(product: any) {
+    console.log('cartAdditon');
+    this.cartAdd.cartLogic(product);
+  }
   ngOnInit() {
-    this.productInfo = this.descriptionInfo.getProductDescriptionInfo(
-      this.productid
-    );
+    this.descriptionInfo
+      .getProductDescriptionInfo(this.productid)
+      .subscribe((val) => {
+        this.product = val;
+      });
+    console.log(this.product);
   }
 }

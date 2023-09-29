@@ -1,5 +1,19 @@
 <div>
-  <mat-toolbar color="primary">
-    <span [routerLink]="['']" class="cursor-pointer">Fab Closet</span>
+  <mat-toolbar color="primary" class="justify-between">
+    <!-- <div class="flex justify-between"> -->
+    <div [routerLink]="['']" class="cursor-pointer">Fab Closet</div>
+    <div class="demo-section mr-4 flex gap-6">
+      <button mat-button [matMenuTriggerFor]="menu">
+        <mat-icon fontIcon="account_circle"></mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item routerLink="auth/login">Login</button>
+        <button mat-menu-item routerLink="auth/signup">Sign Up</button>
+      </mat-menu>
+      <mat-icon matBadge="{{ cartCount }}" matBadgeColor="warn"
+        >shopping_cart</mat-icon
+      >
+    </div>
+    <!-- </div> -->
   </mat-toolbar>
 </div>
