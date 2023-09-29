@@ -1,0 +1,21 @@
+<div *ngIf="$any(productInfo | async) as product">
+  <div class="p-20 flex flex-wrap">
+    <div class="w-1/4 border-4 p-4 border-solid border-gray-500">
+      <img [src]="product.image" alt="Product Image" />
+    </div>
+    <div class="w-3/4 pl-20">
+      <p class="font-bold text-xl">{{ product.title }}</p>
+      <p class="font-semibold font-sans leading-7">
+        {{ product.description }}
+      </p>
+      <mat-chip-listbox aria-label="Product Category" class="mb-3">
+        <mat-chip> Category : {{ product.category }} </mat-chip>
+        <mat-chip> Price : {{ product.price }} </mat-chip>
+      </mat-chip-listbox>
+      <div class="flex gap-3">
+        <button mat-raised-button color="warn">Add To Cart</button>
+        <button mat-raised-button color="primary">Buy Now</button>
+      </div>
+    </div>
+  </div>
+</div>
