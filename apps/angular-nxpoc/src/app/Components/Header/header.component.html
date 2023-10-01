@@ -10,7 +10,10 @@
         <button mat-menu-item routerLink="auth/login">Login</button>
         <button mat-menu-item routerLink="auth/signup">Sign Up</button>
       </mat-menu>
-      <mat-icon matBadge="{{ cartCount }}" matBadgeColor="warn"
+      <mat-icon
+        matBadge="{{ cartCount }}"
+        matBadgeColor="warn"
+        [routerLink]="'cartInfo'"
         >shopping_cart</mat-icon
       >
     </div>

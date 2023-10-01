@@ -13,7 +13,8 @@ module.exports = {
       
     extend: {
       colors:{
-        'primary':'blue'
+        'primary':'#32a852',
+        'white':'#fff'
       },
       // padding:{
       //   '5px':'5px',

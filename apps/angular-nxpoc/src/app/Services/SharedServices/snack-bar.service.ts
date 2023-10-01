@@ -23,12 +23,4 @@ export class SnackBarService {
     this.config['data'] = dataError;
     this._snackBar.openFromComponent(SnackBarWrapperComponent, this.config);
   }
-  // openSnackBar(status: any) {
-  //   console.log('inside snack bar service');
-  //   this._snackBar.openFromComponent(SnackBarWrapperComponent, {
-  //     // duration: this.durationInSeconds * 1000,
-  //     panelClass: ['green-snackbar'],
-  //     verticalPosition: 'top',
-  //   });
-  // }
 }

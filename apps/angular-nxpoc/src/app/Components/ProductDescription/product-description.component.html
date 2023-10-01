@@ -13,10 +13,12 @@
         <mat-chip> Price : {{ product.price }} </mat-chip>
       </mat-chip-listbox>
       <div class="flex gap-3">
-        <button mat-raised-button color="warn" (click)="cartAdditon(product)">
-          Add To Cart
-        </button>
-        <button mat-raised-button color="primary">Buy Now</button>
+        <angular-nxpoc-button
+          [text]="'cart'"
+          [type]="'btn-primary'"
+          (onClick)="cartAdditon(product)"
+        />
+        <angular-nxpoc-button [text]="'buynow'" [type]="'btn-secondary'" />
       </div>
     </div>
   </div>

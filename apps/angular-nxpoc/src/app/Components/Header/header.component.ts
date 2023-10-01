@@ -25,7 +25,7 @@ export class HeaderComponent implements OnInit {
   cartAdd = inject(AddCartService);
   cartCount!: number;
   ngOnInit() {
-    this.cartAdd.subjectCart$.subscribe((value: any) => {
+    this.cartAdd.subjectCart$.subscribe((value: number) => {
       console.log(value);
       this.cartCount = value;
     });

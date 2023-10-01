@@ -1,0 +1,26 @@
+<mat-card>
+  <div [routerLink]="['productInfo', products.id]" class="cursor-pointer">
+    <img
+      class="product-item-image aspect-square shadow-xl mb-3 p-4 hover:scale-105"
+      mat-card-image
+      [src]="products.image"
+      alt="Photo of a Category Image"
+    />
+  </div>
+  <mat-card-content>
+    <p class="text-white line-clamp-1 text-center">
+      {{ products.title }}
+    </p>
+    <div class="flex justify-between items-center">
+      <div class="text-red-500 font-bold text-lg">
+        Price : $
+        {{ products.price }}
+      </div>
+      <angular-nxpoc-button
+        [text]="'cart'"
+        [type]="'btn-primary'"
+        (onClick)="emitEvent(products)"
+      />
+    </div>
+  </mat-card-content>
+</mat-card>

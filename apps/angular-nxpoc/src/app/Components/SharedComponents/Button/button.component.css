@@ -1,0 +1,9 @@
+.btn-primary {
+  @apply bg-amber-500 text-white p-2.5 border-solid
+   border-black rounded-xl hover:bg-yellow-300 hover:text-black;
+}
+.btn-secondary {
+    @apply bg-blue-500 text-white p-2.5 border-solid
+    border-black rounded-xl hover:bg-blue-300 hover:text-black;
+ }
+
