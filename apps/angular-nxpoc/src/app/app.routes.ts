@@ -28,9 +28,7 @@ export const appRoutes: Route[] = [
   {
     path: 'cartInfo',
     loadComponent: () =>
-      import(
-        './Components/SharedComponents/DataTable/data-table.component'
-      ).then((m) => m.DataTableComponent),
+      import('./Components/Cart/cart.component').then((m) => m.CartComponent),
   },
   { path: 'footer', component: FooterComponent },
 ];

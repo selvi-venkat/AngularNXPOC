@@ -6,4 +6,5 @@ export const staticKeywords: IKeyText = {
   loginError: 'Login with correct credentials',
   cart: 'Add to cart',
   buynow: 'Buy now',
+  noCartText: 'No Items in Cart. Happy Shopping!!!',
 };

@@ -1,7 +1,8 @@
-import { Component, inject } from '@angular/core';
+import { Component, Input, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AddCartService } from '../../../Services/add-cart.service';
 import { MatTableModule } from '@angular/material/table';
+import { IProduct } from '../../../Models/product.modal';
 
 @Component({
   selector: 'angular-nxpoc-data-table',
@@ -12,6 +13,6 @@ import { MatTableModule } from '@angular/material/table';
 })
 export class DataTableComponent {
   cardProducts = inject(AddCartService);
-  displayedColumns: string[] = ['title', 'price', 'catgegory', 'image'];
-  dataSource = this.cardProducts.productCart;
+  @Input() displayedColumns!: string[];
+  @Input() dataSource!: IProduct[];
 }
