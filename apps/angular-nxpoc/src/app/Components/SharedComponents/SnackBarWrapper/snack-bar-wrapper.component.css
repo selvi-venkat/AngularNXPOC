@@ -1,0 +1,18 @@
+/* .mat-mdc-snack-bar-container {
+  &.green-snackbar {
+    --mdc-snackbar-container-color: green !important;
+    --mat-mdc-snack-bar-button-color: #fff !important;
+    --mdc-snackbar-supporting-text-color: #fff !important;
+  }
+} */
+
+::ng-deep .success-snackbar {
+  --mdc-snackbar-container-color: green !important;
+  --mat-mdc-snack-bar-button-color: #fff !important;
+  --mdc-snackbar-supporting-text-color: #fff !important;
+}
+::ng-deep .error-snackbar {
+  --mdc-snackbar-container-color: red !important;
+  --mat-mdc-snack-bar-button-color: #fff !important;
+  --mdc-snackbar-supporting-text-color: #fff !important;
+}
