@@ -7,6 +7,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { Router } from '@angular/router';
 import { SnackBarService } from '../../Services/SharedServices/snack-bar.service';
 import { staticKeywords } from '../../Constants/static';
+import { AuthServiceService } from '../../Services/AuthService/auth-service.service';
 
 @Component({
   selector: 'angular-nxpoc-login',
@@ -24,6 +25,8 @@ import { staticKeywords } from '../../Constants/static';
 export class LoginComponent {
   formBuilder = inject(FormBuilder);
   route = inject(Router);
+  authCheck = inject(AuthServiceService);
+
   // _snackBar = inject(MatSnackBar);
   snackBarServiceObj = inject(SnackBarService);
   loginBuilder = this.formBuilder.group({
@@ -39,8 +42,14 @@ export class LoginComponent {
     console.log('loginAccess ');
     console.log(this.loginBuilder.valid);
     if (this.loginBuilder.valid) {
-      this.snackBarServiceObj.success(staticKeywords.loginSuccess);
-      this.route.navigate(['/']);
+      console.log(this.loginBuilder.controls.emailFormControl.value);
+      this.authCheck.SignIn(
+        this.loginBuilder.controls.emailFormControl.value,
+        this.loginBuilder.controls.passwordFormControl.value
+      );
+      // this.snackBarServiceObj.success(staticKeywords.loginSuccess);
+
+      //this.route.navigate(['/']);
     } else {
       this.snackBarServiceObj.error(staticKeywords.loginError);
     }

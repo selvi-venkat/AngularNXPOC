@@ -1,15 +1,11 @@
 import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatInputModule } from '@angular/material/input';
-import {
-  FormBuilder,
-  Validators,
-  ReactiveFormsModule,
-  AbstractControl,
-} from '@angular/forms';
+import { FormBuilder, Validators, ReactiveFormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatButtonModule } from '@angular/material/button';
 import { Router } from '@angular/router';
+import { AuthServiceService } from '../../Services/AuthService/auth-service.service';
 
 @Component({
   selector: 'angular-nxpoc-sign-up',
@@ -25,12 +21,13 @@ import { Router } from '@angular/router';
   styleUrls: ['./sign-up.component.css'],
 })
 export class SignUpComponent {
+  authCheck = inject(AuthServiceService);
   formBuilder = inject(FormBuilder);
   route = inject(Router);
   signUpBuilder = this.formBuilder.group({
     emailFormControl: ['', [Validators.email, Validators.required]],
     passwordFormControl: ['', [Validators.required]],
-    confirmpasswordFormControl: ['', [Validators.required]],
+    //  confirmpasswordFormControl: ['', [Validators.required]],
   });
 
   get signUpForm() {
@@ -47,9 +44,14 @@ export class SignUpComponent {
   //   }
   //   return null;
   // }
+
   signUpAccess() {
     if (this.signUpBuilder.valid) {
-      this.route.navigate(['/']);
+      this.authCheck.SignUpAccess(
+        this.signUpBuilder.controls.emailFormControl.value,
+        this.signUpBuilder.controls.passwordFormControl.value
+      );
+      // this.route.navigate(['/']);
     }
   }
 }

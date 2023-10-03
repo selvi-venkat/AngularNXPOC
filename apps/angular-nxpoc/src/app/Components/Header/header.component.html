@@ -2,7 +2,7 @@
   <mat-toolbar color="primary" class="justify-between">
     <!-- <div class="flex justify-between"> -->
     <div [routerLink]="['']" class="cursor-pointer">Fab Closet</div>
-    <div class="demo-section mr-4 flex gap-6">
+    <div class="demo-section mr-4 flex gap-6 items-center">
       <button mat-button [matMenuTriggerFor]="menu">
         <mat-icon fontIcon="account_circle"></mat-icon>
       </button>
@@ -17,6 +17,7 @@
         class="cursor-pointer"
         >shopping_cart</mat-icon
       >
+      <div>Welcome {{ userName.email.split('@')[0] }}</div>
     </div>
     <!-- </div> -->
   </mat-toolbar>

@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { DataTableComponent } from './data-table.component';
+import { VerifyEmailComponent } from './verify-email.component';
 
-describe('DataTableComponent', () => {
-  let component: DataTableComponent;
-  let fixture: ComponentFixture<DataTableComponent>;
+describe('VerifyEmailComponent', () => {
+  let component: VerifyEmailComponent;
+  let fixture: ComponentFixture<VerifyEmailComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [DataTableComponent],
+      imports: [VerifyEmailComponent],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(DataTableComponent);
+    fixture = TestBed.createComponent(VerifyEmailComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

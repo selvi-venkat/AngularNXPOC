@@ -1,9 +1,0 @@
-<ng-container *ngIf="dataSource.length > 0; else noCart">
-  <angular-nxpoc-data-table
-    [displayedColumns]="displayedColumns"
-    [dataSource]="dataSource"
-  />
-</ng-container>
-<ng-template #noCart>
-  <div class="flex justify-center p-4 font-bold text-xl">{{ noCartMsg }}</div>
-</ng-template>

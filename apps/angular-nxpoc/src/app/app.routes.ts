@@ -2,6 +2,7 @@ import { Route } from '@angular/router';
 import { ProductDescriptionComponent } from './Components/ProductDescription/product-description.component';
 import { FooterComponent } from './Components/Footer/footer.component';
 import { AppMainContentComponent } from './Components/AppMainContent/app-main-content.component';
+import { VerifyEmailComponent } from './Components/VerifyEmail/verify-email.component';
 
 export const appRoutes: Route[] = [
   {
@@ -26,9 +27,13 @@ export const appRoutes: Route[] = [
       ).then((m) => m.ProductDescriptionComponent),
   },
   {
-    path: 'cartInfo',
-    loadComponent: () =>
-      import('./Components/Cart/cart.component').then((m) => m.CartComponent),
+    path: 'verifyEmail',
+    component: VerifyEmailComponent,
   },
+  // {
+  //   path: 'cartInfo',
+  //   loadComponent: () =>
+  //     import('./Components/Cart/cart.component').then((m) => m.CartComponent),
+  // },
   { path: 'footer', component: FooterComponent },
 ];
