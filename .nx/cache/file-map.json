@@ -1,0 +1,772 @@
+{
+  "version": "6.0",
+  "nxVersion": "16.9.1",
+  "deps": {
+    "@angular/animations": "~16.2.0",
+    "@angular/cdk": "^16.2.5",
+    "@angular/common": "~16.2.0",
+    "@angular/compiler": "~16.2.0",
+    "@angular/core": "~16.2.0",
+    "@angular/fire": "^7.6.1",
+    "@angular/forms": "~16.2.0",
+    "@angular/material": "^16.2.5",
+    "@angular/platform-browser": "~16.2.0",
+    "@angular/platform-browser-dynamic": "~16.2.0",
+    "@angular/router": "~16.2.0",
+    "@nx/angular": "16.9.1",
+    "angularfire2": "^5.4.2",
+    "appwrite": "^13.0.0",
+    "firebase": "^9.16.0",
+    "firebaseui": "^6.1.0",
+    "firebaseui-angular": "^6.1.3",
+    "firestore": "^1.1.6",
+    "ng-otp-input": "^1.9.3",
+    "rxjs": "~7.8.0",
+    "save": "^2.9.0",
+    "tailwind": "^4.0.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.13.0",
+    "@angular-builders/custom-webpack": "^16.0.1",
+    "@angular-devkit/build-angular": "~16.2.0",
+    "@angular-devkit/core": "~16.2.0",
+    "@angular-devkit/schematics": "~16.2.0",
+    "@angular-eslint/eslint-plugin": "~16.0.0",
+    "@angular-eslint/eslint-plugin-template": "~16.0.0",
+    "@angular-eslint/template-parser": "~16.0.0",
+    "@angular/cli": "~16.2.0",
+    "@angular/compiler-cli": "~16.2.0",
+    "@angular/language-service": "~16.2.0",
+    "@nx/cypress": "16.9.1",
+    "@nx/eslint-plugin": "16.9.1",
+    "@nx/jest": "16.9.1",
+    "@nx/js": "16.9.1",
+    "@nx/linter": "16.9.1",
+    "@nx/web": "16.9.1",
+    "@nx/workspace": "16.9.1",
+    "@schematics/angular": "~16.2.0",
+    "@types/jest": "^29.4.0",
+    "@types/node": "16.11.7",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "autoprefixer": "^10.4.16",
+    "cypress": "^13.0.0",
+    "eslint": "~8.46.0",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-cypress": "^2.13.4",
+    "jest": "^29.4.1",
+    "jest-environment-jsdom": "^29.4.1",
+    "jest-preset-angular": "~13.1.0",
+    "jsonc-eslint-parser": "^2.1.0",
+    "ng-packagr": "~16.2.0",
+    "nx": "16.9.1",
+    "nx-cloud": "latest",
+    "postcss": "^8.4.30",
+    "postcss-import": "^15.1.0",
+    "postcss-loader": "^7.3.3",
+    "postcss-preset-env": "~7.5.0",
+    "postcss-scss": "^4.0.8",
+    "postcss-url": "~10.1.3",
+    "prettier": "^2.6.2",
+    "tailwindcss": "^3.3.3",
+    "ts-jest": "^29.1.0",
+    "ts-node": "10.9.1",
+    "typescript": "~5.1.3"
+  },
+  "pathMappings": {
+    "@angular-nxpoc/my-lib": [
+      "my-lib/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "11532813898455409296"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "13404745306227114823"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "4566917484430375526"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "5628738610252882264"
+      },
+      {
+        "file": ".nx/cache/d/daemon.log",
+        "hash": "8533323878033088690"
+      },
+      {
+        "file": ".nx/cache/d/server-process.json",
+        "hash": "14932892270005521944"
+      },
+      {
+        "file": ".nx/cache/nx-console-project-graph/project-graph.html",
+        "hash": "17036869540637447991"
+      },
+      {
+        "file": ".nx/cache/nx-console-project-graph/static/3rdpartylicenses.txt",
+        "hash": "5667550289807473445"
+      },
+      {
+        "file": ".nx/cache/nx-console-project-graph/static/environment.js",
+        "hash": "12392897939196088347"
+      },
+      {
+        "file": ".nx/cache/nx-console-project-graph/static/favicon.ico",
+        "hash": "9303420814833116677"
+      },
+      {
+        "file": ".nx/cache/nx-console-project-graph/static/main.js",
+        "hash": "8597522611683477441"
+      },
+      {
+        "file": ".nx/cache/nx-console-project-graph/static/polyfills.js",
+        "hash": "11549993343875971570"
+      },
+      {
+        "file": ".nx/cache/nx-console-project-graph/static/runtime.js",
+        "hash": "9652903316845995179"
+      },
+      {
+        "file": ".nx/cache/nx-console-project-graph/static/styles.css",
+        "hash": "2125456314194136822"
+      },
+      {
+        "file": ".nx/cache/nx-console-project-graph/static/styles.js",
+        "hash": "13596360365094399219"
+      },
+      {
+        "file": ".nx/cache/run.json",
+        "hash": "1633501826202493508"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/5124273655303820402",
+        "hash": "16212169791485482487"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "5519981940544710039"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "6820402234827505055"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "13391140343975966684"
+      },
+      {
+        "file": "README.md",
+        "hash": "1708963647594705154"
+      },
+      {
+        "file": "error.log",
+        "hash": "3034540460003836840"
+      },
+      {
+        "file": "firebase.json",
+        "hash": "1389868326933519382"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3407785570333453138"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "7473220183190921152"
+      },
+      {
+        "file": "nx.json",
+        "hash": "17552521597622821984"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "16946385182761162683"
+      },
+      {
+        "file": "package.json",
+        "hash": "1901843656355405482"
+      },
+      {
+        "file": "tailwind.config.js",
+        "hash": "11715775952624508916"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "14034405078142998867"
+      },
+      {
+        "file": ".nx/cache/file-map.json",
+        "hash": "9573082200817351148"
+      },
+      {
+        "file": ".nx/cache/project-graph.json",
+        "hash": "2893696862720289619"
+      },
+      {
+        "file": ".nx/cache/parsed-lock-file.json",
+        "hash": "8521130984403113466"
+      },
+      {
+        "file": ".nx/cache/lockfile.hash",
+        "hash": "14515120340731438367"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/4818620536112175247",
+        "hash": "7957772262524958807"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/6374987482660898625",
+        "hash": "3244421341483603138"
+      }
+    ],
+    "projectFileMap": {
+      "angular-nxpoc": [
+        {
+          "file": "apps/angular-nxpoc/.eslintrc.json",
+          "hash": "15885134675351674446"
+        },
+        {
+          "file": "apps/angular-nxpoc/jest.config.ts",
+          "hash": "2266045571243665499"
+        },
+        {
+          "file": "apps/angular-nxpoc/project.json",
+          "hash": "6578560462923059087"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/AppMainContent/app-main-content.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/AppMainContent/app-main-content.component.html",
+          "hash": "3251618498649444836"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/AppMainContent/app-main-content.component.spec.ts",
+          "hash": "2890117349117573902",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/AppMainContent/app-main-content.component.ts",
+          "hash": "13221220498446161497",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/Cart/cart.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/Cart/cart.component.html",
+          "hash": "8967569400105346560"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/Cart/cart.component.spec.ts",
+          "hash": "4258386838848462397",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/Cart/cart.component.ts",
+          "hash": "6980868954804621717",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/Footer/footer.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/Footer/footer.component.html",
+          "hash": "12965503917554229835"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/Footer/footer.component.spec.ts",
+          "hash": "4868890553554519911",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/Footer/footer.component.ts",
+          "hash": "10179046017004165964",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/Header/header.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/Header/header.component.html",
+          "hash": "17468333644448113411"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/Header/header.component.spec.ts",
+          "hash": "246408304213996698",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/Header/header.component.ts",
+          "hash": "6448559120200097026",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/material",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/Header/header.route.ts",
+          "hash": "1346812586572864845",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/Login/login.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/Login/login.component.html",
+          "hash": "10202853055338122992"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/Login/login.component.spec.ts",
+          "hash": "14286510909486102227",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/Login/login.component.ts",
+          "hash": "8124052407757998925",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/material",
+            "npm:@angular/forms",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/ProductDescription/product-description.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/ProductDescription/product-description.component.html",
+          "hash": "16975201006429809405"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/ProductDescription/product-description.component.spec.ts",
+          "hash": "14323749108988768627",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/ProductDescription/product-description.component.ts",
+          "hash": "18003589223616094570",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/ProductsList/products-list.component.css",
+          "hash": "15036214574332298676"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/ProductsList/products-list.component.html",
+          "hash": "13385937725487567761"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/ProductsList/products-list.component.spec.ts",
+          "hash": "13550499251291971050",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/ProductsList/products-list.component.ts",
+          "hash": "6429876547721116220",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/SharedComponents/Button/button.component.css",
+          "hash": "5065824335905233940"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/SharedComponents/Button/button.component.html",
+          "hash": "14228215677646590730"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/SharedComponents/Button/button.component.spec.ts",
+          "hash": "4371689863434983961",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/SharedComponents/Button/button.component.ts",
+          "hash": "3848211212240685813",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/SharedComponents/Card/card.component.css",
+          "hash": "7659060357660978613"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/SharedComponents/Card/card.component.html",
+          "hash": "16225661895721332513"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/SharedComponents/Card/card.component.spec.ts",
+          "hash": "10774891835369840542",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/SharedComponents/Card/card.component.ts",
+          "hash": "1345935851213631708",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/material",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/SharedComponents/SnackBarWrapper/snack-bar-wrapper.component.css",
+          "hash": "14345970603366679250"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/SharedComponents/SnackBarWrapper/snack-bar-wrapper.component.html",
+          "hash": "16188296781642844719"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/SharedComponents/SnackBarWrapper/snack-bar-wrapper.component.spec.ts",
+          "hash": "9284117998380681967",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/SharedComponents/SnackBarWrapper/snack-bar-wrapper.component.ts",
+          "hash": "2343016172240501754",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/SignUp/sign-up.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/SignUp/sign-up.component.html",
+          "hash": "10895999018847718121"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/SignUp/sign-up.component.spec.ts",
+          "hash": "11189520064431419247",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/SignUp/sign-up.component.ts",
+          "hash": "16434016019527167367",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/material",
+            "npm:@angular/forms",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/VerifyEmail/verify-email.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/VerifyEmail/verify-email.component.html",
+          "hash": "16571749758263433446"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/VerifyEmail/verify-email.component.spec.ts",
+          "hash": "4545743107534532203",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Components/VerifyEmail/verify-email.component.ts",
+          "hash": "13627554408202778319",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Constants/static.ts",
+          "hash": "246872079607106444"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Environment/environment.firebase.ts",
+          "hash": "17212394184870469720"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Models/product.modal.ts",
+          "hash": "11542769653712592227"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Models/staticKey.modal.ts",
+          "hash": "14624513471672069297"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Services/AuthService/auth-service.service.spec.ts",
+          "hash": "3226961743523345164",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Services/AuthService/auth-service.service.ts",
+          "hash": "5540701190555232827",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/fire",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Services/SharedServices/snack-bar.service.spec.ts",
+          "hash": "8086128884955454871",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Services/SharedServices/snack-bar.service.ts",
+          "hash": "10622349798320385264",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Services/add-cart.service.spec.ts",
+          "hash": "9177063801023094254",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Services/add-cart.service.ts",
+          "hash": "16777709888929293012",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Services/product-info.service.spec.ts",
+          "hash": "3468975813863293256",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/Services/product-info.service.ts",
+          "hash": "1144525720832553683",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/app.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/app.component.html",
+          "hash": "3256591147827043446"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/app.component.spec.ts",
+          "hash": "14884218730420044484",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/app.component.ts",
+          "hash": "13958040805318220479",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@angular/material"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/app.config.ts",
+          "hash": "16145464253417839764",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@angular/platform-browser",
+            "npm:@angular/common",
+            "npm:@angular/material",
+            "npm:@angular/fire"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/app.routes.ts",
+          "hash": "5457397410080102111",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/app/nx-welcome.component.ts",
+          "hash": "8930661984358867710",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/index.html",
+          "hash": "16130126387092233492"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/main.ts",
+          "hash": "875041330523952236",
+          "deps": [
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/src/styles.css",
+          "hash": "4990897492578484883"
+        },
+        {
+          "file": "apps/angular-nxpoc/src/test-setup.ts",
+          "hash": "10765977267162271731",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/tailwind.config.js",
+          "hash": "18387816268718264085",
+          "deps": [
+            "npm:@nx/angular",
+            "npm:path",
+            "npm:../../tailwind.config"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc/tsconfig.app.json",
+          "hash": "15840844869456775012"
+        },
+        {
+          "file": "apps/angular-nxpoc/tsconfig.editor.json",
+          "hash": "6816855480324741077"
+        },
+        {
+          "file": "apps/angular-nxpoc/tsconfig.json",
+          "hash": "17021277375021554599"
+        },
+        {
+          "file": "apps/angular-nxpoc/tsconfig.spec.json",
+          "hash": "1930986853382524452"
+        }
+      ],
+      "angular-nxpoc-e2e": [
+        {
+          "file": "apps/angular-nxpoc-e2e/.eslintrc.json",
+          "hash": "10799368048025705622"
+        },
+        {
+          "file": "apps/angular-nxpoc-e2e/cypress.config.ts",
+          "hash": "10128070837426886452",
+          "deps": [
+            "npm:cypress",
+            "npm:@nx/cypress"
+          ]
+        },
+        {
+          "file": "apps/angular-nxpoc-e2e/project.json",
+          "hash": "15664035191597353015"
+        },
+        {
+          "file": "apps/angular-nxpoc-e2e/src/e2e/app.cy.ts",
+          "hash": "5516205777152741121"
+        },
+        {
+          "file": "apps/angular-nxpoc-e2e/src/fixtures/example.json",
+          "hash": "17341819486505642070"
+        },
+        {
+          "file": "apps/angular-nxpoc-e2e/src/support/app.po.ts",
+          "hash": "5364106453863571025"
+        },
+        {
+          "file": "apps/angular-nxpoc-e2e/src/support/commands.ts",
+          "hash": "11031723810997510506"
+        },
+        {
+          "file": "apps/angular-nxpoc-e2e/src/support/e2e.ts",
+          "hash": "15928825062325902088"
+        },
+        {
+          "file": "apps/angular-nxpoc-e2e/tsconfig.json",
+          "hash": "15819154737716378212"
+        }
+      ]
+    }
+  }
+}

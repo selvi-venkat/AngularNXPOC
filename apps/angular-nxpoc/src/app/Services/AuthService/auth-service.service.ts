@@ -24,7 +24,7 @@ export class AuthServiceService {
         localStorage.setItem('user', JSON.stringify(this.userData));
         JSON.parse(localStorage.getItem('user')!);
       } else {
-        localStorage.setItem('user', 'null');
+        localStorage.setItem('user', 'Guest');
         JSON.parse(localStorage.getItem('user')!);
       }
     });
@@ -34,7 +34,7 @@ export class AuthServiceService {
       .createUserWithEmailAndPassword(email, password)
       .then((result) => {
         console.log('going in then');
-        /* Call the SendVerificaitonMail() function when new user sign 
+        /* Call the SendVerificaitonMail() function when new user sign
         up and returns promise */
         this.SendVerificationMail();
         this.SetUserData(result.user);
@@ -55,8 +55,8 @@ export class AuthServiceService {
         this.router.navigate(['verifyEmail']);
       });
   }
-  /* Setting up user data when sign in with username/password, 
-  sign up with username/password and sign in with social auth  
+  /* Setting up user data when sign in with username/password,
+  sign up with username/password and sign in with social auth
   provider in Firestore database using AngularFirestore + AngularFirestoreDocument service */
   SetUserData(user: any) {
     const userRef: AngularFirestoreDocument<any> = this.afs.doc(

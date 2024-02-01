@@ -30,10 +30,10 @@ export const appRoutes: Route[] = [
     path: 'verifyEmail',
     component: VerifyEmailComponent,
   },
-  // {
-  //   path: 'cartInfo',
-  //   loadComponent: () =>
-  //     import('./Components/Cart/cart.component').then((m) => m.CartComponent),
-  // },
+  {
+    path: 'cartInfo',
+    loadComponent: () =>
+      import('./Components/Cart/cart.component').then((m) => m.CartComponent),
+  },
   { path: 'footer', component: FooterComponent },
 ];

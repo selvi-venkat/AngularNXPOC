@@ -26,8 +26,10 @@ export class HeaderComponent implements OnInit, DoCheck {
   cartAdd = inject(AddCartService);
   authUSer = inject(AuthServiceService);
   cartCount!: number;
-  userName: any = JSON.parse(localStorage.getItem('user')!);
-
+  // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+  userDetails = JSON.parse(localStorage.getItem('user')!);
+  userName: any = localStorage.getItem('user') === 'Guest' ? 'Guest' : this.userDetails.email.split('@')[0];
+  //user: string = userName.email.split('@')[0];
   ngOnInit() {
     this.cartAdd.subjectCart$.subscribe((value: number) => {
       //   console.log(value);

@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx run angular-nxpoc:serve --configuration=development",
+    "startTime": "2024-02-01T04:05:47.039Z",
+    "endTime": "2024-02-01T04:05:47.490Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "angular-nxpoc:serve:development",
+      "target": "serve",
+      "projectName": "angular-nxpoc",
+      "hash": "5124273655303820402",
+      "startTime": "2024-02-01T04:05:47.050Z",
+      "endTime": "2024-02-01T04:05:47.489Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}

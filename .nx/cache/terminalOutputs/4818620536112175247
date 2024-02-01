@@ -1,0 +1,640 @@
+[36m⠋[39m Generating browser application bundles (phase: setup)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: setup)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...
+WARNING: There was an error creating glob patterns, returning an empty array
+createGlobPatternsForDependencies: Error when trying to determine main project.
+createGlobPatternsForDependencies: Could not find any project containing the file "" among it's project files
+
+[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                                    [2m | [22m[1mNames[22m                                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m                                                                                              [2m | [22mvendor                                                     [2m | [22m  [96m6.50 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mpolyfills.js[39m[37m                                                                                           [2m | [22mpolyfills                                                  [2m | [22m[96m333.19 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mstyles.css, styles.js[39m[37m                                                                                  [2m | [22mstyles                                                     [2m | [22m[96m329.18 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m                                                                                                [2m | [22mmain                                                       [2m | [22m [96m62.68 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                                             [2m | [22mruntime                                                    [2m | [22m [96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1m [22m                                                                                                      [2m | [22m[1mInitial Total[22m                                              [2m | [22m  [1m7.22 MB[22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                                       [2m | [22m[1mNames[22m                                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mdefault-node_modules_angular_forms_fesm2022_forms_mjs-node_modules_angular_material_fesm2022_-eecd2[39m[37m3.js[39m[37m[2m | [22mComponents-Header-header-route                             [2m | [22m[96m473.01 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_ProductDescription_product-description_component_ts.js[39m[37m           [2m | [22mComponents-ProductDescription-product-description-component[2m | [22m[96m235.88 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Header_header_route_ts.js[39m[37m                                        [2m | [22mComponents-Header-header-route                             [2m | [22m [96m67.63 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T04:07:16.828Z[39m[37m[22m - Hash: [1m[37m20f8c8fac15d121e[39m[37m[22m - Time: [1m[37m11662[39m[37m[22mms[0m[39m
+[37m[39m
+[37m** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **[39m
+[37m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m                                                        [2m | [22mmain                          [2m | [22m[96m62.81 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m2.25 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m6 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T04:07:54.319Z[39m[37m[22m - Hash: [1m[37m0e9aba80be50b470[39m[37m[22m - Time: [1m[37m4165[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m2.62 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T04:10:21.113Z[39m[37m[22m - Hash: [1m[37md52d2c9eceaab4f1[39m[37m[22m - Time: [1m[37m1795[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.ts[0m:[93m15[0m:[93m3[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m   console.log(cartItems);[39m[22m
+[1m[31m[7m  [0m [91m  ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.ts[0m:[93m15[0m:[93m3[0m - [91merror[0m[90m TS7008: [0mMember 'console' implicitly has an 'any' type.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m   console.log(cartItems);[39m[22m
+[1m[31m[7m  [0m [91m  ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.ts[0m:[93m15[0m:[93m10[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m   console.log(cartItems);[39m[22m
+[1m[31m[7m  [0m [91m         ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.ts[0m:[93m15[0m:[93m11[0m - [91merror[0m[90m TS2391: [0mFunction implementation is missing or not immediately following the declaration.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m   console.log(cartItems);[39m[22m
+[1m[31m[7m  [0m [91m          ~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.ts[0m:[93m15[0m:[93m11[0m - [91merror[0m[90m TS7010: [0m'log', which lacks return-type annotation, implicitly has an 'any' return type.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m   console.log(cartItems);[39m[22m
+[1m[31m[7m  [0m [91m          ~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.ts[0m:[93m15[0m:[93m15[0m - [91merror[0m[90m TS7006: [0mParameter 'cartItems' implicitly has an 'any' type.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m   console.log(cartItems);[39m[22m
+[1m[31m[7m  [0m [91m              ~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m2.62 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T04:10:26.675Z[39m[37m[22m - Hash: [1m[37m6b35b986a13b3b01[39m[37m[22m - Time: [1m[37m1090[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.ts[0m:[93m15[0m:[93m3[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m   console.log(this.cartItems);[39m[22m
+[1m[31m[7m  [0m [91m  ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.ts[0m:[93m15[0m:[93m3[0m - [91merror[0m[90m TS7008: [0mMember 'console' implicitly has an 'any' type.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m   console.log(this.cartItems);[39m[22m
+[1m[31m[7m  [0m [91m  ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.ts[0m:[93m15[0m:[93m10[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m   console.log(this.cartItems);[39m[22m
+[1m[31m[7m  [0m [91m         ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.ts[0m:[93m15[0m:[93m11[0m - [91merror[0m[90m TS2391: [0mFunction implementation is missing or not immediately following the declaration.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m   console.log(this.cartItems);[39m[22m
+[1m[31m[7m  [0m [91m          ~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.ts[0m:[93m15[0m:[93m11[0m - [91merror[0m[90m TS7010: [0m'log', which lacks return-type annotation, implicitly has an 'any' return type.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m   console.log(this.cartItems);[39m[22m
+[1m[31m[7m  [0m [91m          ~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.ts[0m:[93m15[0m:[93m15[0m - [91merror[0m[90m TS7006: [0mParameter 'this' implicitly has an 'any' type.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m   console.log(this.cartItems);[39m[22m
+[1m[31m[7m  [0m [91m              ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.ts[0m:[93m15[0m:[93m19[0m - [91merror[0m[90m TS1005: [0m',' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m   console.log(this.cartItems);[39m[22m
+[1m[31m[7m  [0m [39m[22m[1m[31m[91m                  ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.ts[0m:[93m15[0m:[93m20[0m - [91merror[0m[90m TS7006: [0mParameter 'cartItems' implicitly has an 'any' type.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m   console.log(this.cartItems);[39m[22m
+[1m[31m[7m  [0m [91m                   ~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m2.62 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T04:12:07.541Z[39m[37m[22m - Hash: [1m[37m638879e9cd2496dd[39m[37m[22m - Time: [1m[37m1568[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.ts[0m:[93m16[0m:[93m3[0m - [91merror[0m[90m TS1434: [0mUnexpected keyword or identifier.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m16[0m   console.log(this.cartItems);[39m[22m
+[1m[31m[7m  [0m [91m  ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.ts[0m:[93m16[0m:[93m3[0m - [91merror[0m[90m TS7008: [0mMember 'console' implicitly has an 'any' type.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m16[0m   console.log(this.cartItems);[39m[22m
+[1m[31m[7m  [0m [91m  ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.ts[0m:[93m16[0m:[93m10[0m - [91merror[0m[90m TS1068: [0mUnexpected token. A constructor, method, accessor, or property was expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m16[0m   console.log(this.cartItems);[39m[22m
+[1m[31m[7m  [0m [91m         ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.ts[0m:[93m16[0m:[93m11[0m - [91merror[0m[90m TS2391: [0mFunction implementation is missing or not immediately following the declaration.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m16[0m   console.log(this.cartItems);[39m[22m
+[1m[31m[7m  [0m [91m          ~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.ts[0m:[93m16[0m:[93m11[0m - [91merror[0m[90m TS7010: [0m'log', which lacks return-type annotation, implicitly has an 'any' return type.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m16[0m   console.log(this.cartItems);[39m[22m
+[1m[31m[7m  [0m [91m          ~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.ts[0m:[93m16[0m:[93m15[0m - [91merror[0m[90m TS7006: [0mParameter 'this' implicitly has an 'any' type.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m16[0m   console.log(this.cartItems);[39m[22m
+[1m[31m[7m  [0m [91m              ~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.ts[0m:[93m16[0m:[93m19[0m - [91merror[0m[90m TS1005: [0m',' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m16[0m   console.log(this.cartItems);[39m[22m
+[1m[31m[7m  [0m [39m[22m[1m[31m[91m                  ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.ts[0m:[93m16[0m:[93m20[0m - [91merror[0m[90m TS7006: [0mParameter 'cartItems' implicitly has an 'any' type.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m16[0m   console.log(this.cartItems);[39m[22m
+[1m[31m[7m  [0m [91m                   ~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m2.71 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T04:14:41.137Z[39m[37m[22m - Hash: [1m[37m4eec1bad81617b7c[39m[37m[22m - Time: [1m[37m1674[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m2.71 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T04:14:56.401Z[39m[37m[22m - Hash: [1m[37m12cab408bccf2ab2[39m[37m[22m - Time: [1m[37m1361[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m2.75 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T04:15:59.996Z[39m[37m[22m - Hash: [1m[37m36be861d8dedefe0[39m[37m[22m - Time: [1m[37m1294[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m3.38 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T04:28:51.724Z[39m[37m[22m - Hash: [1m[37m30bd33d6f65b472c[39m[37m[22m - Time: [1m[37m3746[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.html[0m:[93m1[0m:[93m61[0m - [91merror[0m[90m TS2339: [0mProperty 'cartId' does not exist on type 'CartComponent'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m1[0m <li *ngFor="let cartItem of cartItems; index as i; trackBy: cartId">[39m[22m
+[1m[31m[7m [0m [91m                                                            ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.ts[0m:[93m10[0m:[93m16[0m[39m[22m
+[1m[31m    [7m10[0m   templateUrl: './cart.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component CartComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m3.42 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T04:29:40.986Z[39m[37m[22m - Hash: [1m[37m444b9ab82c72314d[39m[37m[22m - Time: [1m[37m999[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.ts[0m:[93m20[0m:[93m10[0m - [91merror[0m[90m TS7006: [0mParameter 'index' implicitly has an 'any' type.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m20[0m   cartId(index,items){[39m[22m
+[1m[31m[7m  [0m [91m         ~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.ts[0m:[93m20[0m:[93m16[0m - [91merror[0m[90m TS7006: [0mParameter 'items' implicitly has an 'any' type.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m20[0m   cartId(index,items){[39m[22m
+[1m[31m[7m  [0m [91m               ~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m3.42 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T04:30:00.807Z[39m[37m[22m - Hash: [1m[37mfedd3e50e938173d[39m[37m[22m - Time: [1m[37m1205[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m3.82 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T04:31:50.756Z[39m[37m[22m - Hash: [1m[37m483124cef63280d5[39m[37m[22m - Time: [1m[37m869[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m4.23 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T04:32:35.047Z[39m[37m[22m - Hash: [1m[37m5d383e63fb701917[39m[37m[22m - Time: [1m[37m701[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m4.23 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T04:32:42.869Z[39m[37m[22m - Hash: [1m[37m3bc8ce6382fd049a[39m[37m[22m - Time: [1m[37m779[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                                                         [2m | [22m[1mNames[22m                                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m                                                                                     [2m | [22mmain                                                       [2m | [22m [96m62.81 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                                                  [2m | [22mruntime                                                    [2m | [22m [96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                                                            [2m | [22m[1mNames[22m                                                      [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_ProductDescription_product-description_component_ts.js[39m[37m[2m | [22mComponents-ProductDescription-product-description-component[2m | [22m[96m235.88 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m                             [2m | [22mComponents-Cart-cart-component                             [2m | [22m  [96m4.23 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T04:36:56.754Z[39m[37m[22m - Hash: [1m[37m3a9f2118313a60da[39m[37m[22m - Time: [1m[37m1582[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m4.32 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T04:38:00.250Z[39m[37m[22m - Hash: [1m[37mace0c42f181d5770[39m[37m[22m - Time: [1m[37m728[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m4.33 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T04:38:20.493Z[39m[37m[22m - Hash: [1m[37m052d771b9b1b438c[39m[37m[22m - Time: [1m[37m629[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m4.34 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T04:39:31.107Z[39m[37m[22m - Hash: [1m[37m75f5bb8ae406f2e1[39m[37m[22m - Time: [1m[37m802[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m4.32 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T04:39:50.339Z[39m[37m[22m - Hash: [1m[37m40d0082c6dff405a[39m[37m[22m - Time: [1m[37m760[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m4.33 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T04:40:05.865Z[39m[37m[22m - Hash: [1m[37m72334276a639355e[39m[37m[22m - Time: [1m[37m674[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m4.35 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T04:40:16.785Z[39m[37m[22m - Hash: [1m[37ma33e5d8cd4e3a899[39m[37m[22m - Time: [1m[37m573[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m4.36 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T04:40:26.934Z[39m[37m[22m - Hash: [1m[37mc36b2e03e86ce618[39m[37m[22m - Time: [1m[37m558[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m4.38 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T04:40:49.611Z[39m[37m[22m - Hash: [1m[37m2db88d3ae1ff6c7f[39m[37m[22m - Time: [1m[37m676[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m4.64 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T04:43:43.996Z[39m[37m[22m - Hash: [1m[37mf3c1ddb73d7ee3a6[39m[37m[22m - Time: [1m[37m743[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.html[0m:[93m8[0m:[93m3[0m - [91merror[0m[90m NG8001: [0m'angular-nxpoc-card' is not a known element:[39m[22m
+[1m[31m1. If 'angular-nxpoc-card' is an Angular component, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. If 'angular-nxpoc-card' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m8[0m   <angular-nxpoc-card [products]="cartItem"></angular-nxpoc-card>[39m[22m
+[1m[31m[7m [0m [91m  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.ts[0m:[93m10[0m:[93m16[0m[39m[22m
+[1m[31m    [7m10[0m   templateUrl: './cart.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component CartComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.html[0m:[93m8[0m:[93m23[0m - [91merror[0m[90m NG8002: [0mCan't bind to 'products' since it isn't a known property of 'angular-nxpoc-card'.[39m[22m
+[1m[31m1. If 'angular-nxpoc-card' is an Angular component and it has 'products' input, then verify that it is included in the '@Component.imports' of this component.[39m[22m
+[1m[31m2. If 'angular-nxpoc-card' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@Component.schemas' of this component to suppress this message.[39m[22m
+[1m[31m3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m8[0m   <angular-nxpoc-card [products]="cartItem"></angular-nxpoc-card>[39m[22m
+[1m[31m[7m [0m [91m                      ~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mapps/angular-nxpoc/src/app/Components/Cart/cart.component.ts[0m:[93m10[0m:[93m16[0m[39m[22m
+[1m[31m    [7m10[0m   templateUrl: './cart.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component CartComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m×[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m4.88 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T04:44:01.611Z[39m[37m[22m - Hash: [1m[37mb7bd4453449ed7a3[39m[37m[22m - Time: [1m[37m725[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m4.88 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T04:44:20.062Z[39m[37m[22m - Hash: [1m[37mf17c0c69e91a196d[39m[37m[22m - Time: [1m[37m546[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m4.38 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T04:45:51.854Z[39m[37m[22m - Hash: [1m[37m8646ea3a150b1441[39m[37m[22m - Time: [1m[37m887[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m4.66 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T08:11:27.868Z[39m[37m[22m - Hash: [1m[37me7fa51ef5f41b78b[39m[37m[22m - Time: [1m[37m2615[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m4.67 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T08:11:36.921Z[39m[37m[22m - Hash: [1m[37m0bdf7c178444988c[39m[37m[22m - Time: [1m[37m1005[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m5.04 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T08:12:27.979Z[39m[37m[22m - Hash: [1m[37m3b013952395ab76b[39m[37m[22m - Time: [1m[37m1169[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m5.25 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T08:12:55.795Z[39m[37m[22m - Hash: [1m[37m4a694b139b95de06[39m[37m[22m - Time: [1m[37m1196[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m5.27 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T08:13:39.160Z[39m[37m[22m - Hash: [1m[37m5dd0b0ee937a19de[39m[37m[22m - Time: [1m[37m1242[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m                                            [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m                                                     [2m | [22mruntime                       [2m | [22m[96m13.26 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1mLazy Chunk Files[22m                                               [2m | [22m[1mNames[22m                         [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mapps_angular-nxpoc_src_app_Components_Cart_cart_component_ts.js[39m[37m[2m | [22mComponents-Cart-cart-component[2m | [22m [96m5.33 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m7 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2024-02-01T08:15:52.333Z[39m[37m[22m - Hash: [1m[37mbadedd7b2cbbc1a5[39m[37m[22m - Time: [1m[37m1209[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m√[39m[37m Compiled successfully.[39m
